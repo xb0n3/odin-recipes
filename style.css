@@ -1,0 +1,51 @@
+body {
+  background-color: #222222;
+}
+
+div * {
+  color: #ffffff;
+}
+
+#container {
+  font-family: 'Arial', sans-serif;
+  padding: 25px 50px;
+}
+
+header {
+    padding-bottom: 12px;
+}
+
+header h1 {
+  font-size: 48px;
+  line-height: 16px;
+}
+
+.recipe {
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.recipe a {
+  text-decoration: none;
+}
+
+.recipe a:hover {
+  color: #ffbb77;
+}
+
+.recipe a:hover::after {
+  content: ' <';
+}
+
+.sign {
+  font-size: 12px;
+}
+
+#container .recipe {
+  border-left: 2px solid #ffffff;
+  padding-left: 10px;
+}
+
+#container .recipe:hover {
+  border-left: 2px solid #ffbb77;
+}
