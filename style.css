@@ -33,10 +33,6 @@ header h1 {
   color: #ffbb77;
 }
 
-.recipe a:hover::after {
-  content: ' <';
-}
-
 .sign {
   font-size: 12px;
 }
@@ -48,4 +44,22 @@ header h1 {
 
 #container .recipe:hover {
   border-left: 2px solid #ffbb77;
+}
+
+div p em {
+  font-size: 14px;
+}
+
+ul li {
+  list-style: square;
+}
+
+.return h4 {
+  font-size: 21px;
+  text-decoration: none;
+}
+
+.return h4:hover {
+  color: #ffbb77;
+  text-decoration: none;
 }
